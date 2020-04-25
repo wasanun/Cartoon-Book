@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import im from './im/e.jpg'
 
 function App() {
  
@@ -13,7 +13,7 @@ function App() {
         
       </header>
       <body className="App-body">
-
+      <img src={im} alt='Avatar photo' width="500px" /> <br/>
       </body>
 
       <footer className="App-link">
@@ -24,5 +24,7 @@ function App() {
   );
   
 }
+
+
 
 export default App;
