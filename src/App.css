@@ -29,6 +29,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-style: dotted solid; /* www.w3schools.com */
+  border-width: 5px;
   font-size: calc(10px + 2vmin);
   color:#282c34;
 }
@@ -40,6 +42,16 @@
   flex-direction: column;
   align-items: left;
   color: #615725;
+}
+
+.App-todo {
+  background-color: #3cb371;
+
+  flex-direction: column;
+  border-style: dotted solid;
+  border-width: 5px;
+  font-size: calc(10px + 2vmin);
+  color:#282c34;
 }
 
 @keyframes App-logo-spin {

@@ -25,9 +25,7 @@ class Todo extends Component {
                     <div className="App-title App-header">
                         <h2> {this.props.head} </h2>
                     </div>
-
-                <div className="App-content">
-
+             
                     <div className="row">
                         <div className="col75">
                             <input type="text" ref="todo"  />
@@ -41,7 +39,7 @@ class Todo extends Component {
                         {this.renderList()}
                     </div>
                 </div>
-            </div>
+            
         )
     }
 }
